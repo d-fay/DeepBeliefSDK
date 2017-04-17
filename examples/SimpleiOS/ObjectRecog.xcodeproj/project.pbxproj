@@ -21,7 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		592FF8B518ECBD7600C164F8 /* SimpleExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		592FF8B518ECBD7600C164F8 /* ObjectRecog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectRecog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		592FF8B818ECBD7600C164F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		592FF8BA18ECBD7600C164F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		592FF8BC18ECBD7600C164F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -67,7 +67,7 @@
 		592FF8B618ECBD7600C164F8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				592FF8B518ECBD7600C164F8 /* SimpleExample.app */,
+				592FF8B518ECBD7600C164F8 /* ObjectRecog.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,9 +112,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		592FF8B418ECBD7600C164F8 /* SimpleExample */ = {
+		592FF8B418ECBD7600C164F8 /* ObjectRecog */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 592FF8E318ECBD7600C164F8 /* Build configuration list for PBXNativeTarget "SimpleExample" */;
+			buildConfigurationList = 592FF8E318ECBD7600C164F8 /* Build configuration list for PBXNativeTarget "ObjectRecog" */;
 			buildPhases = (
 				592FF8B118ECBD7600C164F8 /* Sources */,
 				592FF8B218ECBD7600C164F8 /* Frameworks */,
@@ -124,9 +124,9 @@
 			);
 			dependencies = (
 			);
-			name = SimpleExample;
+			name = ObjectRecog;
 			productName = SimpleExample;
-			productReference = 592FF8B518ECBD7600C164F8 /* SimpleExample.app */;
+			productReference = 592FF8B518ECBD7600C164F8 /* ObjectRecog.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -136,8 +136,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					592FF8B418ECBD7600C164F8 = {
+						DevelopmentTeam = YAXM3VLPJ8;
+					};
+				};
 			};
-			buildConfigurationList = 592FF8AE18ECBD3600C164F8 /* Build configuration list for PBXProject "SimpleExample" */;
+			buildConfigurationList = 592FF8AE18ECBD3600C164F8 /* Build configuration list for PBXProject "ObjectRecog" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -149,7 +154,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				592FF8B418ECBD7600C164F8 /* SimpleExample */,
+				592FF8B418ECBD7600C164F8 /* ObjectRecog */,
 			);
 		};
 /* End PBXProject section */
@@ -233,6 +238,8 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = YAXM3VLPJ8;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					../../iOSLibrary,
 					"$(inherited)",
@@ -258,6 +265,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ML.ObjRecog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -287,6 +295,8 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = YAXM3VLPJ8;
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					../../iOSLibrary,
@@ -306,6 +316,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ML.ObjRecog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -318,7 +329,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		592FF8AE18ECBD3600C164F8 /* Build configuration list for PBXProject "SimpleExample" */ = {
+		592FF8AE18ECBD3600C164F8 /* Build configuration list for PBXProject "ObjectRecog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				592FF8AF18ECBD3600C164F8 /* Debug */,
@@ -327,7 +338,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		592FF8E318ECBD7600C164F8 /* Build configuration list for PBXNativeTarget "SimpleExample" */ = {
+		592FF8E318ECBD7600C164F8 /* Build configuration list for PBXNativeTarget "ObjectRecog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				592FF8DF18ECBD7600C164F8 /* Debug */,
