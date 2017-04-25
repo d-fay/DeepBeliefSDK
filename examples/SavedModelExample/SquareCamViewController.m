@@ -52,7 +52,7 @@
 #import <AssetsLibrary/AssetsLibrary.h>
 #include <sys/time.h>
 
-#import <DeepBelief/DeepBelief.h>
+#import </Users/kyma/SourceTree/d-fay/DeepBeliefSDK/examples/SavedModelExample/SquareCamViewController.m>
 
 #pragma mark-
 
